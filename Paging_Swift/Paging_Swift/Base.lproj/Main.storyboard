@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="fjv-Sr-XUA">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Paging_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rKt-PM-O38">
+                                <rect key="frame" x="0.0" y="498" width="320" height="70"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rKt-PM-O38" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-20" id="cBQ-gG-ScM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rKt-PM-O38" secondAttribute="trailing" constant="-20" id="eCr-Ah-uib"/>
+                            <constraint firstItem="rKt-PM-O38" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="434" id="hMa-T0-4Il"/>
+                            <constraint firstItem="rKt-PM-O38" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="kcF-oK-Fof"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="agI-Uh-Clm"/>
+                    <connections>
+                        <outlet property="buttonScroll" destination="rKt-PM-O38" id="skH-Fz-FUI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="713" y="334"/>
+        </scene>
+        <!--ViewController0-->
+        <scene sceneID="A53-l6-X9z">
+            <objects>
+                <viewController storyboardIdentifier="ItemController0" title="ViewController0" id="Dbk-Tf-DTS" customClass="PageItemController" customModule="Paging_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DTd-Id-hbI"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Xo-S2-ucI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LJ5-Qt-rcf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wpf-fI-1uH">
+                                <rect key="frame" x="8" y="44" width="304" height="480"/>
+                                <string key="text">Booker T. Washington High School opened its doors in 1916 as the second public school in Columbia, South Carolina for African Americans. Built on the corner of Marion and Blossom Streets, the school only offered elementary grades. Then in 1924, it become a standard high school—the largest public high school for Blacks in South Carolina for many years. Booker T. Washington was also one of the few in the state to be accredited by the Southern Association of Colleges and Secondary Schools. The school closed in 1974 when the University of South Carolina purchased the property, adaptively reusing the structure as a collegiate institution of learning.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rL7-zR-Wa7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="65" y="972"/>
+        </scene>
+        <!--ViewController1-->
+        <scene sceneID="i2f-Xn-Jyi">
+            <objects>
+                <viewController storyboardIdentifier="ItemController1" title="ViewController1" id="RfP-Jq-vR5" customClass="PageItemController" customModule="Paging_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Z4X-bv-dbc"/>
+                        <viewControllerLayoutGuide type="bottom" id="c4E-OT-4sJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dxa-Cv-Rlz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jubilee.png" translatesAutoresizingMaskIntoConstraints="NO" id="iG6-GC-4H2">
+                                <rect key="frame" x="0.0" y="124" width="320" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="b2Y-zo-qwT"/>
+                                    <constraint firstAttribute="height" constant="320" id="ehG-zr-wsP"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.89512310610000001" green="0.89512310610000001" blue="0.89512310610000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="iG6-GC-4H2" secondAttribute="centerY" id="3al-6s-Vsp"/>
+                            <constraint firstAttribute="centerX" secondItem="iG6-GC-4H2" secondAttribute="centerX" id="XqU-FZ-sdd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="view" destination="Dxa-Cv-Rlz" id="6tG-mC-ibm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7IJ-QC-FfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="488" y="980"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="z2o-Jv-T7h">
+            <objects>
+                <pageViewController storyboardIdentifier="PageController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="AkL-qy-2tW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ATb-KL-Eai" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1078" y="334"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mqV-rm-HPK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fjv-Sr-XUA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EVZ-wV-nS8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="BEJ-HM-sXB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sq7-gc-zei" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="181" y="334"/>
+        </scene>
+        <!--ViewController2-->
+        <scene sceneID="nfs-WE-iOf">
+            <objects>
+                <viewController storyboardIdentifier="ItemController2" title="ViewController2" id="WOg-ij-7C1" customClass="PageItemController" customModule="Paging_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ytl-4s-xne"/>
+                        <viewControllerLayoutGuide type="bottom" id="sJe-yf-Qnh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5r1-9A-WVb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Coliseum1968.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="kNA-Q6-AYa">
+                                <rect key="frame" x="0.0" y="124" width="320" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="320" id="NTz-ZK-O3S"/>
+                                    <constraint firstAttribute="width" constant="320" id="VUt-g8-BCe"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.89512310610000001" green="0.89512310610000001" blue="0.89512310610000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="kNA-Q6-AYa" secondAttribute="centerX" id="QHo-jy-Ol5"/>
+                            <constraint firstAttribute="centerY" secondItem="kNA-Q6-AYa" secondAttribute="centerY" id="bGq-Nc-dIM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="view" destination="5r1-9A-WVb" id="TgL-Gl-R2E"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="naT-qT-212" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="850" y="980"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Coliseum1968.jpeg" width="512" height="512"/>
+        <image name="Jubilee.png" width="1429" height="988"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
