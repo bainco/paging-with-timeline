@@ -7,34 +7,34 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>46997B3A-59DB-445C-A2E8-5C381800D442</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Paging_Swift</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8552FFE5E3EC38F723D85288B0461C506AA478CD</key>
-		<string>https://github.com/maribethb/wardonePageControllers.git</string>
+		<key>3BE73FA06DB95876C3B090A6FE253E00E1E3E20C</key>
+		<string>https://github.com/wardone/paging-with-timeline.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Paging_Swift/Paging_Swift.xcodeproj</string>
+	<string>Paging_Swift/Paging_Swift.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8552FFE5E3EC38F723D85288B0461C506AA478CD</key>
+		<key>3BE73FA06DB95876C3B090A6FE253E00E1E3E20C</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/maribethb/wardonePageControllers.git</string>
+	<string>https://github.com/wardone/paging-with-timeline.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8552FFE5E3EC38F723D85288B0461C506AA478CD</string>
+	<string>3BE73FA06DB95876C3B090A6FE253E00E1E3E20C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8552FFE5E3EC38F723D85288B0461C506AA478CD</string>
+			<string>3BE73FA06DB95876C3B090A6FE253E00E1E3E20C</string>
 			<key>IDESourceControlWCCName</key>
-			<string>wardonePageControllers</string>
+			<string>pagecontroller-with-timeline</string>
 		</dict>
 	</array>
 </dict>

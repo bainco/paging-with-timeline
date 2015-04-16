@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A9191661ADF580300944A23 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9191651ADF580300944A23 /* main.swift */; };
+		5A9191691ADF58A400944A23 /* QTouchposeApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9191681ADF58A400944A23 /* QTouchposeApplication.m */; };
 		5AB87C6A1ADF494600A0060A /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB87C681ADF494600A0060A /* PopUpViewController.swift */; };
 		5AB87C6B1ADF494600A0060A /* PopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AB87C691ADF494600A0060A /* PopUpViewController.xib */; };
 		A83AC8A01AD62B4600947AF4 /* Jubilee.png in Resources */ = {isa = PBXBuildFile; fileRef = A83AC89F1AD62B4600947AF4 /* Jubilee.png */; };
@@ -31,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A9191641ADF57D500944A23 /* Paging_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Paging_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		5A9191651ADF580300944A23 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5A9191671ADF58A400944A23 /* QTouchposeApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTouchposeApplication.h; sourceTree = "<group>"; };
+		5A9191681ADF58A400944A23 /* QTouchposeApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTouchposeApplication.m; sourceTree = "<group>"; };
 		5AB87C681ADF494600A0060A /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		5AB87C691ADF494600A0060A /* PopUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpViewController.xib; sourceTree = "<group>"; };
 		A83AC89F1AD62B4600947AF4 /* Jubilee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jubilee.png; sourceTree = "<group>"; };
@@ -89,6 +95,8 @@
 		B2A6778519FD197300B3F6DB /* Paging_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				5A9191671ADF58A400944A23 /* QTouchposeApplication.h */,
+				5A9191681ADF58A400944A23 /* QTouchposeApplication.m */,
 				B2A6778819FD197300B3F6DB /* AppDelegate.swift */,
 				B2A6778A19FD197300B3F6DB /* ViewController.swift */,
 				B2A6778C19FD197300B3F6DB /* Main.storyboard */,
@@ -98,6 +106,8 @@
 				B2A6779119FD197400B3F6DB /* LaunchScreen.xib */,
 				B2A6778619FD197300B3F6DB /* Supporting Files */,
 				B2A677C719FD5D9B00B3F6DB /* PageItemController.swift */,
+				5A9191641ADF57D500944A23 /* Paging_Swift-Bridging-Header.h */,
+				5A9191651ADF580300944A23 /* main.swift */,
 			);
 			path = Paging_Swift;
 			sourceTree = "<group>";
@@ -231,9 +241,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2A677C819FD5D9B00B3F6DB /* PageItemController.swift in Sources */,
+				5A9191661ADF580300944A23 /* main.swift in Sources */,
 				B2A6778B19FD197300B3F6DB /* ViewController.swift in Sources */,
 				B2A6778919FD197300B3F6DB /* AppDelegate.swift in Sources */,
 				5AB87C6A1ADF494600A0060A /* PopUpViewController.swift in Sources */,
+				5A9191691ADF58A400944A23 /* QTouchposeApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +371,7 @@
 				INFOPLIST_FILE = Paging_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Paging_Swift/Paging_Swift-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -370,6 +383,7 @@
 				INFOPLIST_FILE = Paging_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Paging_Swift/Paging_Swift-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
